@@ -4,8 +4,6 @@ def badge_maker(name)
   return "Hello, my name is #{name}."
 end
 
-
-
 def batch_badge_creator(array)
   nuarray = []
   array.each do |name|
@@ -15,9 +13,6 @@ def batch_badge_creator(array)
 end
 
 # batch_badge_creator(people)
-
-
-
 def assign_rooms(array)
   nuarray = []
   counter = 1
